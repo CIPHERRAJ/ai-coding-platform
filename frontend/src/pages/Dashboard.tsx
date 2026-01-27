@@ -132,7 +132,7 @@ const Dashboard = () => {
                   </div>
                 </div>
               ))}
-              {Object.keys(profile.topic_strength).length === 0 && (
+              {Object.keys(profile.topic_strength || {}).length === 0 && (
                 <p className="text-xs text-gray-500 italic">No data yet. Solve problems to track progress.</p>
               )}
             </div>
