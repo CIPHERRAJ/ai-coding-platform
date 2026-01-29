@@ -4,7 +4,7 @@ echo Starting AI Adaptive Coding Platform (Full Stack)
 echo ===================================================
 
 :: Set the API Key
-set GEMINI_API_KEY=AIzaSyB499uf7rsTEjmg6pdibYncMJnRYJkB_a4
+rem Environment variables are loaded from .env
 
 :: Start Django Backend in a new window
 echo Starting Django Backend...
